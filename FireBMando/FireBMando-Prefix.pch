@@ -1,0 +1,39 @@
+//
+//  FireBMando-Prefix.pch
+//  FireBMando
+//
+//  Created by Mint IT on 23/01/2018.
+//  Copyright © 2018 Mint IT. All rights reserved.
+//
+
+#ifndef FireBMando_Prefix_pch
+#define FireBMando_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AppDelegate.h"
+@import Firebase;
+@import FirebaseAuthUI;
+@import FirebaseAuth.FIRUser;
+@import FirebaseAuth.FIRFacebookAuthProvider;
+@import GoogleSignIn;
+@import Twitter;
+#import <TwitterKit/TwitterKit.h>
+
+
+#import <AFNetworking/AFNetworking.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <UIActivityIndicator-for-SDWebImage/UIImageView+UIActivityIndicatorForSDWebImage.h>
+
+#import "MainViewController.h"
+#import "SignUpViewController.h"
+#import "RootViewController.h"
+#import "LogInViewController.h"
+#import "Item.h"
+#import "ItemCell.h"
+#import "WelcomeViewController.h"
+
+#import "MHWebService.h"
+
+#endif /* FireBMando_Prefix_pch */

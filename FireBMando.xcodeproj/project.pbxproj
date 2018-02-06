@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168D45982020C68F00549BD6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168D45972020C68F00549BD6 /* Media.xcassets */; };
+		168D459C2020C85200549BD6 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D459B2020C85200549BD6 /* AnimationViewController.m */; };
+		16C4BAE3201A1EBA00268E3D /* MHWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4BAE2201A1EBA00268E3D /* MHWebService.m */; };
+		16D650622017318600E5E287 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D650612017318600E5E287 /* AppDelegate.m */; };
+		16D650652017318700E5E287 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D650642017318700E5E287 /* SignUpViewController.m */; };
+		16D650682017318800E5E287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D650662017318800E5E287 /* Main.storyboard */; };
+		16D6506B2017318800E5E287 /* FireBMando.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16D650692017318800E5E287 /* FireBMando.xcdatamodeld */; };
+		16D650702017318800E5E287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D6506E2017318800E5E287 /* LaunchScreen.storyboard */; };
+		16D650732017318800E5E287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D650722017318800E5E287 /* main.m */; };
+		16D6507D2017318900E5E287 /* FireBMandoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D6507C2017318900E5E287 /* FireBMandoTests.m */; };
+		16D650882017318A00E5E287 /* FireBMandoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D650872017318A00E5E287 /* FireBMandoUITests.m */; };
+		16D650992017772400E5E287 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D650982017772400E5E287 /* MainViewController.m */; };
+		16D6509B20177C6F00E5E287 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16D6509A20177C6F00E5E287 /* GoogleService-Info.plist */; };
+		16F6D66A20188AC20026448B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6D66920188AC20026448B /* RootViewController.m */; };
+		16F6D66D201892EE0026448B /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6D66C201892EE0026448B /* LogInViewController.m */; };
+		16F6D6762018A7510026448B /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6D6752018A7510026448B /* Item.m */; };
+		16F6D67B2018C65D0026448B /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6D6792018C65D0026448B /* ItemCell.m */; };
+		16F6D67C2018C65D0026448B /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F6D67A2018C65D0026448B /* ItemCell.xib */; };
+		16F6D6802018D94C0026448B /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6D67F2018D94C0026448B /* WelcomeViewController.m */; };
+		4D63C4E5A3B070C611DDA04A /* libPods-FireBMandoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7922E652544D5B9276540A1E /* libPods-FireBMandoUITests.a */; };
+		616399EB86B1ACAC32966A32 /* libPods-FireBMandoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E7DE0CD6C60F3DBC3FE33A /* libPods-FireBMandoTests.a */; };
+		85C99509C480691D09236A9C /* libPods-FireBMando.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D0656926199D477FE953B /* libPods-FireBMando.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16D650792017318900E5E287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D650552017318500E5E287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D6505C2017318600E5E287;
+			remoteInfo = FireBMando;
+		};
+		16D650842017318A00E5E287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D650552017318500E5E287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D6505C2017318600E5E287;
+			remoteInfo = FireBMando;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E7DE0CD6C60F3DBC3FE33A /* libPods-FireBMandoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireBMandoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		019D0656926199D477FE953B /* libPods-FireBMando.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireBMando.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE708816C8317283B55086F /* Pods-FireBMandoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBMandoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBMandoUITests/Pods-FireBMandoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		168D45972020C68F00549BD6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		168D459A2020C85200549BD6 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		168D459B2020C85200549BD6 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		16C4BAE1201A1EBA00268E3D /* MHWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHWebService.h; sourceTree = "<group>"; };
+		16C4BAE2201A1EBA00268E3D /* MHWebService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHWebService.m; sourceTree = "<group>"; };
+		16D6505D2017318600E5E287 /* FireBMando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBMando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D650602017318600E5E287 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16D650612017318600E5E287 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16D650632017318700E5E287 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		16D650642017318700E5E287 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		16D650672017318800E5E287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16D6506A2017318800E5E287 /* FireBMando.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FireBMando.xcdatamodel; sourceTree = "<group>"; };
+		16D6506F2017318800E5E287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16D650712017318800E5E287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D650722017318800E5E287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16D650782017318900E5E287 /* FireBMandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBMandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D6507C2017318900E5E287 /* FireBMandoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireBMandoTests.m; sourceTree = "<group>"; };
+		16D6507E2017318A00E5E287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D650832017318A00E5E287 /* FireBMandoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBMandoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D650872017318A00E5E287 /* FireBMandoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireBMandoUITests.m; sourceTree = "<group>"; };
+		16D650892017318A00E5E287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D650952017338A00E5E287 /* FireBMando-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireBMando-Prefix.pch"; sourceTree = "<group>"; };
+		16D650972017772400E5E287 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		16D650982017772400E5E287 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		16D6509A20177C6F00E5E287 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16F6D66820188AC20026448B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		16F6D66920188AC20026448B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		16F6D66B201892EE0026448B /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		16F6D66C201892EE0026448B /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		16F6D6742018A7510026448B /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		16F6D6752018A7510026448B /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		16F6D6782018C65D0026448B /* ItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		16F6D6792018C65D0026448B /* ItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		16F6D67A2018C65D0026448B /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		16F6D67E2018D94C0026448B /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		16F6D67F2018D94C0026448B /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		602AC93F4718F929AD2F5F1F /* Pods-FireBMandoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBMandoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBMandoTests/Pods-FireBMandoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7922E652544D5B9276540A1E /* libPods-FireBMandoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireBMandoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08E2BE3A06F0B8726210694 /* Pods-FireBMando.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBMando.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBMando/Pods-FireBMando.debug.xcconfig"; sourceTree = "<group>"; };
+		DF1526462CF80DD6F577F94E /* Pods-FireBMandoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBMandoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBMandoTests/Pods-FireBMandoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F97B21E4340F7ED791B4C92F /* Pods-FireBMando.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBMando.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBMando/Pods-FireBMando.release.xcconfig"; sourceTree = "<group>"; };
+		FBB4616938F0280A339835C4 /* Pods-FireBMandoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBMandoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBMandoUITests/Pods-FireBMandoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16D6505A2017318600E5E287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C99509C480691D09236A9C /* libPods-FireBMando.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D650752017318900E5E287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616399EB86B1ACAC32966A32 /* libPods-FireBMandoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D650802017318A00E5E287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D63C4E5A3B070C611DDA04A /* libPods-FireBMandoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168D45992020C82F00549BD6 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				168D459A2020C85200549BD6 /* AnimationViewController.h */,
+				168D459B2020C85200549BD6 /* AnimationViewController.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		16C4BAE0201A1E6A00268E3D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				16C4BAE1201A1EBA00268E3D /* MHWebService.h */,
+				16C4BAE2201A1EBA00268E3D /* MHWebService.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		16D650542017318500E5E287 = {
+			isa = PBXGroup;
+			children = (
+				16D6505F2017318600E5E287 /* FireBMando */,
+				16D6507B2017318900E5E287 /* FireBMandoTests */,
+				16D650862017318A00E5E287 /* FireBMandoUITests */,
+				16D6505E2017318600E5E287 /* Products */,
+				4BE908223A94C9D91DB1C923 /* Pods */,
+				3E137617EFF72369A3FD62ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16D6505E2017318600E5E287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16D6505D2017318600E5E287 /* FireBMando.app */,
+				16D650782017318900E5E287 /* FireBMandoTests.xctest */,
+				16D650832017318A00E5E287 /* FireBMandoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16D6505F2017318600E5E287 /* FireBMando */ = {
+			isa = PBXGroup;
+			children = (
+				16C4BAE0201A1E6A00268E3D /* Managers */,
+				16F6D6732018A7300026448B /* Models */,
+				16F6D66E201892F50026448B /* Controllers */,
+				16D6509A20177C6F00E5E287 /* GoogleService-Info.plist */,
+				16D650602017318600E5E287 /* AppDelegate.h */,
+				16D650612017318600E5E287 /* AppDelegate.m */,
+				16D650662017318800E5E287 /* Main.storyboard */,
+				168D45972020C68F00549BD6 /* Media.xcassets */,
+				16D6506E2017318800E5E287 /* LaunchScreen.storyboard */,
+				16D650712017318800E5E287 /* Info.plist */,
+				16D650722017318800E5E287 /* main.m */,
+				16D650692017318800E5E287 /* FireBMando.xcdatamodeld */,
+				16D650952017338A00E5E287 /* FireBMando-Prefix.pch */,
+			);
+			path = FireBMando;
+			sourceTree = "<group>";
+		};
+		16D6507B2017318900E5E287 /* FireBMandoTests */ = {
+			isa = PBXGroup;
+			children = (
+				16D6507C2017318900E5E287 /* FireBMandoTests.m */,
+				16D6507E2017318A00E5E287 /* Info.plist */,
+			);
+			path = FireBMandoTests;
+			sourceTree = "<group>";
+		};
+		16D650862017318A00E5E287 /* FireBMandoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16D650872017318A00E5E287 /* FireBMandoUITests.m */,
+				16D650892017318A00E5E287 /* Info.plist */,
+			);
+			path = FireBMandoUITests;
+			sourceTree = "<group>";
+		};
+		16F6D66E201892F50026448B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				168D45992020C82F00549BD6 /* Animation */,
+				16F6D672201893270026448B /* MainViewController */,
+				16F6D67D2018D9290026448B /* Welcome */,
+				16F6D671201893180026448B /* Login */,
+				16F6D670201893090026448B /* Root */,
+				16F6D66F201892FE0026448B /* Signup */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		16F6D66F201892FE0026448B /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				16D650632017318700E5E287 /* SignUpViewController.h */,
+				16D650642017318700E5E287 /* SignUpViewController.m */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		16F6D670201893090026448B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				16F6D6772018C62B0026448B /* Cell */,
+				16F6D66820188AC20026448B /* RootViewController.h */,
+				16F6D66920188AC20026448B /* RootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		16F6D671201893180026448B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				16F6D66B201892EE0026448B /* LogInViewController.h */,
+				16F6D66C201892EE0026448B /* LogInViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		16F6D672201893270026448B /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16D650972017772400E5E287 /* MainViewController.h */,
+				16D650982017772400E5E287 /* MainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		16F6D6732018A7300026448B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16F6D6742018A7510026448B /* Item.h */,
+				16F6D6752018A7510026448B /* Item.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		16F6D6772018C62B0026448B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				16F6D6782018C65D0026448B /* ItemCell.h */,
+				16F6D6792018C65D0026448B /* ItemCell.m */,
+				16F6D67A2018C65D0026448B /* ItemCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		16F6D67D2018D9290026448B /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				16F6D67E2018D94C0026448B /* WelcomeViewController.h */,
+				16F6D67F2018D94C0026448B /* WelcomeViewController.m */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		3E137617EFF72369A3FD62ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				019D0656926199D477FE953B /* libPods-FireBMando.a */,
+				00E7DE0CD6C60F3DBC3FE33A /* libPods-FireBMandoTests.a */,
+				7922E652544D5B9276540A1E /* libPods-FireBMandoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BE908223A94C9D91DB1C923 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B08E2BE3A06F0B8726210694 /* Pods-FireBMando.debug.xcconfig */,
+				F97B21E4340F7ED791B4C92F /* Pods-FireBMando.release.xcconfig */,
+				DF1526462CF80DD6F577F94E /* Pods-FireBMandoTests.debug.xcconfig */,
+				602AC93F4718F929AD2F5F1F /* Pods-FireBMandoTests.release.xcconfig */,
+				FBB4616938F0280A339835C4 /* Pods-FireBMandoUITests.debug.xcconfig */,
+				0FE708816C8317283B55086F /* Pods-FireBMandoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16D6505C2017318600E5E287 /* FireBMando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D6508C2017318A00E5E287 /* Build configuration list for PBXNativeTarget "FireBMando" */;
+			buildPhases = (
+				A5C2586B6C44864CB3AD8248 /* [CP] Check Pods Manifest.lock */,
+				16D650592017318600E5E287 /* Sources */,
+				16D6505A2017318600E5E287 /* Frameworks */,
+				16D6505B2017318600E5E287 /* Resources */,
+				92BA00DB380A62D897096C41 /* [CP] Embed Pods Frameworks */,
+				05264C8B6B31B35610DE6FF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireBMando;
+			productName = FireBMando;
+			productReference = 16D6505D2017318600E5E287 /* FireBMando.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16D650772017318900E5E287 /* FireBMandoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D6508F2017318A00E5E287 /* Build configuration list for PBXNativeTarget "FireBMandoTests" */;
+			buildPhases = (
+				59513CCADFE4BF3FBD51C305 /* [CP] Check Pods Manifest.lock */,
+				16D650742017318900E5E287 /* Sources */,
+				16D650752017318900E5E287 /* Frameworks */,
+				16D650762017318900E5E287 /* Resources */,
+				6A51BA1E8E959FD97AAB6DD3 /* [CP] Embed Pods Frameworks */,
+				539A4762E0951F4C82746619 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D6507A2017318900E5E287 /* PBXTargetDependency */,
+			);
+			name = FireBMandoTests;
+			productName = FireBMandoTests;
+			productReference = 16D650782017318900E5E287 /* FireBMandoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16D650822017318A00E5E287 /* FireBMandoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D650922017318A00E5E287 /* Build configuration list for PBXNativeTarget "FireBMandoUITests" */;
+			buildPhases = (
+				3184F11D2884556251969F74 /* [CP] Check Pods Manifest.lock */,
+				16D6507F2017318A00E5E287 /* Sources */,
+				16D650802017318A00E5E287 /* Frameworks */,
+				16D650812017318A00E5E287 /* Resources */,
+				AB2F49A0477498745AF0E28B /* [CP] Embed Pods Frameworks */,
+				2055E9EE66B6D4F00F9683D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D650852017318A00E5E287 /* PBXTargetDependency */,
+			);
+			name = FireBMandoUITests;
+			productName = FireBMandoUITests;
+			productReference = 16D650832017318A00E5E287 /* FireBMandoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16D650552017318500E5E287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mint IT";
+				TargetAttributes = {
+					16D6505C2017318600E5E287 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					16D650772017318900E5E287 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16D6505C2017318600E5E287;
+					};
+					16D650822017318A00E5E287 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16D6505C2017318600E5E287;
+					};
+				};
+			};
+			buildConfigurationList = 16D650582017318500E5E287 /* Build configuration list for PBXProject "FireBMando" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16D650542017318500E5E287;
+			productRefGroup = 16D6505E2017318600E5E287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16D6505C2017318600E5E287 /* FireBMando */,
+				16D650772017318900E5E287 /* FireBMandoTests */,
+				16D650822017318A00E5E287 /* FireBMandoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16D6505B2017318600E5E287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168D45982020C68F00549BD6 /* Media.xcassets in Resources */,
+				16D650702017318800E5E287 /* LaunchScreen.storyboard in Resources */,
+				16F6D67C2018C65D0026448B /* ItemCell.xib in Resources */,
+				16D650682017318800E5E287 /* Main.storyboard in Resources */,
+				16D6509B20177C6F00E5E287 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D650762017318900E5E287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D650812017318A00E5E287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05264C8B6B31B35610DE6FF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FireBMando/Pods-FireBMando-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBMando/Pods-FireBMando-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2055E9EE66B6D4F00F9683D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBMandoUITests/Pods-FireBMandoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3184F11D2884556251969F74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireBMandoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		539A4762E0951F4C82746619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBMandoTests/Pods-FireBMandoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59513CCADFE4BF3FBD51C305 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireBMandoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A51BA1E8E959FD97AAB6DD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBMandoTests/Pods-FireBMandoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92BA00DB380A62D897096C41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FireBMando/Pods-FireBMando-frameworks.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBMando/Pods-FireBMando-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C2586B6C44864CB3AD8248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireBMando-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB2F49A0477498745AF0E28B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBMandoUITests/Pods-FireBMandoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16D650592017318600E5E287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F6D67B2018C65D0026448B /* ItemCell.m in Sources */,
+				16F6D6762018A7510026448B /* Item.m in Sources */,
+				16F6D66D201892EE0026448B /* LogInViewController.m in Sources */,
+				168D459C2020C85200549BD6 /* AnimationViewController.m in Sources */,
+				16D650652017318700E5E287 /* SignUpViewController.m in Sources */,
+				16D650622017318600E5E287 /* AppDelegate.m in Sources */,
+				16F6D6802018D94C0026448B /* WelcomeViewController.m in Sources */,
+				16C4BAE3201A1EBA00268E3D /* MHWebService.m in Sources */,
+				16F6D66A20188AC20026448B /* RootViewController.m in Sources */,
+				16D650732017318800E5E287 /* main.m in Sources */,
+				16D650992017772400E5E287 /* MainViewController.m in Sources */,
+				16D6506B2017318800E5E287 /* FireBMando.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D650742017318900E5E287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D6507D2017318900E5E287 /* FireBMandoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D6507F2017318A00E5E287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D650882017318A00E5E287 /* FireBMandoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D6507A2017318900E5E287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D6505C2017318600E5E287 /* FireBMando */;
+			targetProxy = 16D650792017318900E5E287 /* PBXContainerItemProxy */;
+		};
+		16D650852017318A00E5E287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D6505C2017318600E5E287 /* FireBMando */;
+			targetProxy = 16D650842017318A00E5E287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16D650662017318800E5E287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D650672017318800E5E287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16D6506E2017318800E5E287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D6506F2017318800E5E287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16D6508A2017318A00E5E287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16D6508B2017318A00E5E287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16D6508D2017318A00E5E287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08E2BE3A06F0B8726210694 /* Pods-FireBMando.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FireBMando/FireBMando-Prefix.pch";
+				INFOPLIST_FILE = FireBMando/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mint.test.FireBMando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16D6508E2017318A00E5E287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97B21E4340F7ED791B4C92F /* Pods-FireBMando.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FireBMando/FireBMando-Prefix.pch";
+				INFOPLIST_FILE = FireBMando/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mint.test.FireBMando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16D650902017318A00E5E287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1526462CF80DD6F577F94E /* Pods-FireBMandoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireBMandoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mint.test.FireBMandoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireBMando.app/FireBMando";
+			};
+			name = Debug;
+		};
+		16D650912017318A00E5E287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602AC93F4718F929AD2F5F1F /* Pods-FireBMandoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireBMandoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mint.test.FireBMandoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireBMando.app/FireBMando";
+			};
+			name = Release;
+		};
+		16D650932017318A00E5E287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB4616938F0280A339835C4 /* Pods-FireBMandoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireBMandoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mint.test.FireBMandoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireBMando;
+			};
+			name = Debug;
+		};
+		16D650942017318A00E5E287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE708816C8317283B55086F /* Pods-FireBMandoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireBMandoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mint.test.FireBMandoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireBMando;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D650582017318500E5E287 /* Build configuration list for PBXProject "FireBMando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D6508A2017318A00E5E287 /* Debug */,
+				16D6508B2017318A00E5E287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D6508C2017318A00E5E287 /* Build configuration list for PBXNativeTarget "FireBMando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D6508D2017318A00E5E287 /* Debug */,
+				16D6508E2017318A00E5E287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D6508F2017318A00E5E287 /* Build configuration list for PBXNativeTarget "FireBMandoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D650902017318A00E5E287 /* Debug */,
+				16D650912017318A00E5E287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D650922017318A00E5E287 /* Build configuration list for PBXNativeTarget "FireBMandoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D650932017318A00E5E287 /* Debug */,
+				16D650942017318A00E5E287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16D650692017318800E5E287 /* FireBMando.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16D6506A2017318800E5E287 /* FireBMando.xcdatamodel */,
+			);
+			currentVersion = 16D6506A2017318800E5E287 /* FireBMando.xcdatamodel */;
+			path = FireBMando.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16D650552017318500E5E287 /* Project object */;
+}

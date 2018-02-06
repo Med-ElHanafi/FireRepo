@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="304" height="254"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="304" height="254"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N3v-5j-odx">
+                        <rect key="frame" x="0.0" y="0.0" width="304" height="254"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TPo-rl-fXA">
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="254"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TPo-rl-fXA" firstAttribute="leading" secondItem="N3v-5j-odx" secondAttribute="leading" id="GQf-By-RMI"/>
+                            <constraint firstAttribute="trailing" secondItem="TPo-rl-fXA" secondAttribute="trailing" id="b0M-VC-y6N"/>
+                            <constraint firstItem="TPo-rl-fXA" firstAttribute="top" secondItem="N3v-5j-odx" secondAttribute="top" id="mYV-Lb-bDA"/>
+                            <constraint firstAttribute="bottom" secondItem="TPo-rl-fXA" secondAttribute="bottom" id="pMz-j4-q46"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="0.50422731164383561" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="N3v-5j-odx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1Nm-xT-R0q"/>
+                <constraint firstAttribute="bottom" secondItem="N3v-5j-odx" secondAttribute="bottom" id="cqX-aC-7N4"/>
+                <constraint firstAttribute="trailing" secondItem="N3v-5j-odx" secondAttribute="trailing" id="lLJ-xw-OPI"/>
+                <constraint firstItem="N3v-5j-odx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yhf-1K-g4i"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="304" height="254"/>
+            <connections>
+                <outlet property="itemImage" destination="TPo-rl-fXA" id="cjm-R7-Tmj"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="67"/>
+        </collectionViewCell>
+    </objects>
+</document>
