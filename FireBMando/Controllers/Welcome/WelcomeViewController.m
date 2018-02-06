@@ -8,7 +8,7 @@
 
 #import "WelcomeViewController.h"
 
-@interface WelcomeViewController ()
+@interface WelcomeViewController ()<GIDSignInUIDelegate>
 
 @end
 
@@ -26,6 +26,7 @@
     _gooView.layer.cornerRadius=_fbView.frame.size.height*0.5;
     _gooView.clipsToBounds=YES;
     
+    [GIDSignIn sharedInstance].uiDelegate = self;
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
@@ -65,6 +66,7 @@
                                               completion:^(FIRUser *user, NSError *error) {
                                                   if (error) {
                                                       NSLog(@"error : %@",error);
+                                                      [self showPopUp:@"" message:[NSString stringWithFormat:@"error : %@",error]];
                                                       return;
                                                   }
                                                   NSLog(@"user : %@",user);
@@ -98,8 +100,13 @@
     [[GIDSignIn sharedInstance] signIn];
 }
 
-- (IBAction)gotoGIF:(id)sender {
+-(void)showPopUp :(NSString*)title message:(NSString*)message{
+    UIAlertController *alert=[UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action=[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }];
+    [alert addAction:action];
+    [self presentViewController:alert animated:YES completion:nil];
 }
-
 
 @end

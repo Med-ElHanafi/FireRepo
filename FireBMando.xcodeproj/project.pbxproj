@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		168D45982020C68F00549BD6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168D45972020C68F00549BD6 /* Media.xcassets */; };
-		168D459C2020C85200549BD6 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D459B2020C85200549BD6 /* AnimationViewController.m */; };
-		16C4BAE3201A1EBA00268E3D /* MHWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4BAE2201A1EBA00268E3D /* MHWebService.m */; };
 		16D650622017318600E5E287 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D650612017318600E5E287 /* AppDelegate.m */; };
 		16D650652017318700E5E287 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D650642017318700E5E287 /* SignUpViewController.m */; };
 		16D650682017318800E5E287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D650662017318800E5E287 /* Main.storyboard */; };
@@ -53,10 +51,6 @@
 		019D0656926199D477FE953B /* libPods-FireBMando.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireBMando.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE708816C8317283B55086F /* Pods-FireBMandoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBMandoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBMandoUITests/Pods-FireBMandoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		168D45972020C68F00549BD6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		168D459A2020C85200549BD6 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
-		168D459B2020C85200549BD6 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
-		16C4BAE1201A1EBA00268E3D /* MHWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHWebService.h; sourceTree = "<group>"; };
-		16C4BAE2201A1EBA00268E3D /* MHWebService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHWebService.m; sourceTree = "<group>"; };
 		16D6505D2017318600E5E287 /* FireBMando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBMando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D650602017318600E5E287 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16D650612017318600E5E287 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,24 +118,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		168D45992020C82F00549BD6 /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				168D459A2020C85200549BD6 /* AnimationViewController.h */,
-				168D459B2020C85200549BD6 /* AnimationViewController.m */,
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		16C4BAE0201A1E6A00268E3D /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				16C4BAE1201A1EBA00268E3D /* MHWebService.h */,
-				16C4BAE2201A1EBA00268E3D /* MHWebService.m */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
 		16D650542017318500E5E287 = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +143,6 @@
 		16D6505F2017318600E5E287 /* FireBMando */ = {
 			isa = PBXGroup;
 			children = (
-				16C4BAE0201A1E6A00268E3D /* Managers */,
 				16F6D6732018A7300026448B /* Models */,
 				16F6D66E201892F50026448B /* Controllers */,
 				16D6509A20177C6F00E5E287 /* GoogleService-Info.plist */,
@@ -205,7 +180,6 @@
 		16F6D66E201892F50026448B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				168D45992020C82F00549BD6 /* Animation */,
 				16F6D672201893270026448B /* MainViewController */,
 				16F6D67D2018D9290026448B /* Welcome */,
 				16F6D671201893180026448B /* Login */,
@@ -608,11 +582,9 @@
 				16F6D67B2018C65D0026448B /* ItemCell.m in Sources */,
 				16F6D6762018A7510026448B /* Item.m in Sources */,
 				16F6D66D201892EE0026448B /* LogInViewController.m in Sources */,
-				168D459C2020C85200549BD6 /* AnimationViewController.m in Sources */,
 				16D650652017318700E5E287 /* SignUpViewController.m in Sources */,
 				16D650622017318600E5E287 /* AppDelegate.m in Sources */,
 				16F6D6802018D94C0026448B /* WelcomeViewController.m in Sources */,
-				16C4BAE3201A1EBA00268E3D /* MHWebService.m in Sources */,
 				16F6D66A20188AC20026448B /* RootViewController.m in Sources */,
 				16D650732017318800E5E287 /* main.m in Sources */,
 				16D650992017772400E5E287 /* MainViewController.m in Sources */,

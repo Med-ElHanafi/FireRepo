@@ -25,7 +25,6 @@ static NSString* reuseIdentifier=@"cell";
     [self getDataFromFire];
     
     [self.collectionView registerNib:[UINib nibWithNibName:@"ItemCell" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
-    [self testManager];
 }
 -(void)getDataFromFire{
     [_ref observeSingleEventOfType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
@@ -72,18 +71,5 @@ static NSString* reuseIdentifier=@"cell";
     CGFloat height = self.view.frame.size.height;
     CGFloat width  = self.view.frame.size.width;
     return CGSizeMake(width*0.5-4,width*0.5-4);
-}
--(void)testManager{
-    NSString *URLString = @"http://api.aladhan.com/calendar";
-    NSDictionary *parameters = @{@"latitude": @"33.8869", @"longitude":@"9.5375", @"method":@"1",@"month":@"1",@"year":@"2018"};
-    MHWebService *manager=[[MHWebService alloc]init];
-    [manager getRequest:URLString parameters:parameters response:^(id response, id error) {
-        if (response) {
-           NSLog(@"response %@",response);
-        }else{
-            NSLog(@"error %@",error);
-        }
-        
-    }];
 }
 @end

@@ -22,7 +22,6 @@
                              didFinishLaunchingWithOptions:launchOptions];
     [GIDSignIn sharedInstance].clientID = [FIRApp defaultApp].options.clientID;
     [GIDSignIn sharedInstance].delegate = self;
-    [[Twitter sharedInstance] startWithConsumerKey:@"q7QworfIceW3fgyKNk43rangl" consumerSecret:@"        nH7PsWiVbGtvthW1P5nt8tnmfNHknUWoQhL1zyzoKwb46HffK1"];
     return YES;
 }
 
@@ -39,8 +38,7 @@
     return handled
     || [[GIDSignIn sharedInstance] handleURL:url
                           sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
-                                         annotation:options[UIApplicationOpenURLOptionsAnnotationKey]]
-    || [[Twitter sharedInstance] application:application openURL:url options:options];
+                                         annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
 }
 
 

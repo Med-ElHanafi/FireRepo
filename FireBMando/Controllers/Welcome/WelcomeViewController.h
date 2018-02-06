@@ -21,6 +21,5 @@
 - (IBAction)signoutgoogle:(id)sender;
 
 - (IBAction)googleSignin:(id)sender;
-- (IBAction)gotoGIF:(id)sender;
 
 @end
